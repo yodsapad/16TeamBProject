@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Run TeamBTest",
+            "request": "launch",
+            "mainClass": "org.junit.platform.console.ConsoleLauncher",
+            "args": "--scan-class-path",
+            "classPaths": [
+                "${workspaceFolder}",
+                "${workspaceFolder}/lib/junit-jupiter-api-5.11.4.jar"
+            ]
+        }
+    ]
+}
